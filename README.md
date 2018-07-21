@@ -3,14 +3,7 @@
 
 <hr>
 
-
->South Doyle Robotics Webpage
-
-<a href="https://www.soknorobo.com" target=""> <img src="https://github.com/South-Doyle/South-Doyle/blob/master/images/South-Doyle%20V2.png?raw=true" width="80%"  target="_blank" alt="[Image of Soknorobo]"> </a>
-
-* Find us at the <a href="https://www.thebluealliance.com/team/6517" target="_blank"> Blue Alliance Webpage</a>
-
-<hr>  
+>South Doyle Robotics
 
 ```javascript
     // 404 page not found.
