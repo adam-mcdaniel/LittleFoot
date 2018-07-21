@@ -1,0 +1,1 @@
+Search.setIndex({docnames:["index","setup"],envversion:53,filenames:["index.rst","setup.rst"],objects:{},objnames:{},objtypes:{},terms:{index:0,modul:0,page:0,search:0,setup:[],thi:1},titles:["Documentation for LittleFoot!","Setup"],titleterms:{document:0,indic:0,littlefoot:0,setup:1,tabl:0,welcom:[]}})
