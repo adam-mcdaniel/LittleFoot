@@ -5,16 +5,18 @@
 
 Documentation for LittleFoot!
 =============================
-
+Setup
+-----
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-   
+
+   Setup RobotMesh
+
+Troubleshooting
+---------------
+.. toctree::
+   :maxdepth: 2
+
+   Troubleshooting
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
