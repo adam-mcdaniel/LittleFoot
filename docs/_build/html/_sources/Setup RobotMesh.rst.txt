@@ -21,15 +21,13 @@ Creating a Project
 - Now Name your program something that suits your Personality and click Create
 
 
-``Hooray!!!``
-
-*You have a VEX EDR project you can mess with*
+``Hooray!!! You have a VEX EDR project you can mess with``
 
 
 
 Installing plugins
 ------------------
-*To install the plugins follow the guide at bottom of your screen or you can follow along with the guide*
+``To install the plugins follow the guide at bottom of your screen or you can follow along with the guide``
 
 - Click on the "Please install it..." link on your project IDE.
 
@@ -51,9 +49,9 @@ Installing plugins
 
 - Refresh your browser tab 
 
-**You may need to update the cortex firmware and install the drivers**
+``You may need to update the cortex firmware and install the drivers``
 
-*Follow the next OPTIONAL steps if this is your first install*
+``Follow the next OPTIONAL steps if this is your first install``
 
 
 
@@ -67,4 +65,5 @@ Installing plugins
   - `VEXnet Serial USB Driver <https://content.vexrobotics.com/downloads/VEX_Driver_Installer_110111.zip>`_
   - `VEXnet Firmware Upgrade Utility <http://link.vex.com/downloads/VEXnetUpgrade>`_
   - `VEXnet Key 2.0 Firmware Upgrade Utility <http://link.vex.com/downloads/VEXnet-Key-2p0-Update>`_
+
 
