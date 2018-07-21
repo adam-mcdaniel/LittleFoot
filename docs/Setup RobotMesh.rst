@@ -33,6 +33,9 @@ Installing plugins
 
 - Click on the "Please install it..." link on your project IDE.
 
+ .. image:: https://github.com/Atikul10152002/LittleFoot/blob/master/docs/img/pleaseinstall.png?raw=true
+
+
  ``A screen will popup listing components to install``
 
 - On the popup screen click on the first link to "install the Robot Mesh Connect extension for your browser 
@@ -43,13 +46,17 @@ Installing plugins
 
 - Now click on the second link to Download the Robot Mesh Connect installer
 
-*Links for Robot Mesh Connect installer:* `Windows <https://www.robotmesh.com//downloads/RobotMeshConnect.msi>`_
-| `Mac OSX <https://www.robotmesh.com//downloads/RobotMeshConnect.dmg>`_ | `Ubuntu 12.04 32-bit <https://www.robotmesh.com//downloads/ubuntu12.04/robotmeshconnect-0.2_i386.deb>`_ | 
-`Ubuntu 12.04 64-bit <https://www.robotmesh.com//downloads/ubuntu12.04/robotmeshconnect-0.2_amd64.deb>`_ | `Ubuntu 14.04 32-bit <href="https://www.robotmesh.com//downloads/ubuntu14.04/robotmeshconnect-0.2_i386.deb>`_ | `Ubuntu 14.04 64-bit <href="https://www.robotmesh.com//downloads/ubuntu14.04/robotmeshconnect-0.2_amd64.deb>`_ | `Ubuntu 16.04 32-bit <https://www.robotmesh.com//downloads/ubuntu16.04/robotmeshconnect-0.5_i386.deb>`_ | `Ubuntu 16.04 64-bit <"https://www.robotmesh.com//downloads/ubuntu16.04/robotmeshconnect-0.5_amd64.deb>`_ 
+ .. image:: https://github.com/Atikul10152002/LittleFoot/blob/master/docs/img/downloadcomp.png?raw=true
+
+
+ *Links for Robot Mesh Connect installer:* `Windows <https://www.robotmesh.com//downloads/RobotMeshConnect.msi>`_ | `Mac OSX <https://www.robotmesh.com//downloads/RobotMeshConnect.dmg>`_ | `Ubuntu 12.04 32-bit <https://www.robotmesh.com//downloads/ubuntu12.04/robotmeshconnect-0.2_i386.deb>`_ | `Ubuntu 12.04 64-bit <https://www.robotmesh.com//downloads/ubuntu12.04/robotmeshconnect-0.2_amd64.deb>`_ | `Ubuntu 14.04 32-bit <href="https://www.robotmesh.com//downloads/ubuntu14.04/robotmeshconnect-0.2_i386.deb>`_ | `Ubuntu 14.04 64-bit <href="https://www.robotmesh.com//downloads/ubuntu14.04/robotmeshconnect-0.2_amd64.deb>`_ | `Ubuntu 16.04 32-bit <https://www.robotmesh.com//downloads/ubuntu16.04/robotmeshconnect-0.5_i386.deb>`_ | `Ubuntu 16.04 64-bit <"https://www.robotmesh.com//downloads/ubuntu16.04/robotmeshconnect-0.5_amd64.deb>`_ 
 
  - Double click on the downloaded file to run and install the required components
 
 - Refresh your browser tab 
+ 
+ .. image:: https://github.com/Atikul10152002/LittleFoot/blob/master/docs/img/refreshtab.png?raw=true
+
 
 **You may need to update the cortex firmware and install the drivers**
 
@@ -67,4 +74,5 @@ Installing plugins
   - `VEXnet Serial USB Driver <https://content.vexrobotics.com/downloads/VEX_Driver_Installer_110111.zip>`_
   - `VEXnet Firmware Upgrade Utility <http://link.vex.com/downloads/VEXnetUpgrade>`_
   - `VEXnet Key 2.0 Firmware Upgrade Utility <http://link.vex.com/downloads/VEXnet-Key-2p0-Update>`_
+
 
