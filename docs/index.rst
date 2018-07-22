@@ -13,11 +13,25 @@ Setup
 
    Setup RobotMesh
 
+
+Deploying code
+--------------
+.. toctree::
+   :maxdepth: 2
+
+   Deploy Code
+
+
+RobotMesh Help
+---------------
+.. toctree::
+   :maxdepth: 2
+
+   RobotMesh API
+
 Troubleshooting
 ---------------
 .. toctree::
    :maxdepth: 2
 
    Troubleshooting
-
-
