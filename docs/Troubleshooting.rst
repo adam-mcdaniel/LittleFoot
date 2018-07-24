@@ -1,18 +1,12 @@
-
-
-
-
-Troubleshoot Errors
-===================
 Port Errors
------------
+===========
     For all port errors
 
     - Unplug and re-plug the USB cable
 
 
 Diagnostics Information
------------------------
+=======================
 
 *Refer to the following chart for Joystick and Cortex LED patterns and meanings.*
 
@@ -23,14 +17,14 @@ Diagnostics Information
 
 
 General Robot Troubleshooting Flowchart
----------------------------------------
+=======================================
 
 .. image:: https://curriculum.vexrobotics.com/sites/default/files/styles/large/public/AP2-19.jpg
 
 
 
 VEXnet Troubleshooting Flowchart
---------------------------------
+================================
 
 .. image:: https://curriculum.vexrobotics.com/sites/default/files/styles/large/public/AP2-20.jpg
 
@@ -38,13 +32,14 @@ If the issue is still present after following this guide, update both the Cortex
 
 
 Motor Troubleshooting Flowchart
--------------------------------
+===============================
 
 .. image:: https://curriculum.vexrobotics.com/sites/default/files/styles/large/public/AP2-21.jpg
 
 
 Still Having Trouble? 
----------------------
+=====================
+
     If you're still having trouble,
 
     Refer to `VEXnet User's Guide <https://curriculum.vexrobotics.com/appendices/appendix-2.html>`_ for further help

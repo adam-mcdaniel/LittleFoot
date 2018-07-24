@@ -1,5 +1,5 @@
-RobotMesh help
-==============
+RobotMesh API
+=============
 
 To program the VEX EDR (Cortex) controller:
 

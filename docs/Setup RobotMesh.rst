@@ -1,8 +1,5 @@
-How to setup RobotMesh
-======================
-
 Creating a Project
--------------------
+==================
 
 - First Navigate to `RobotMesh Studio <https://www.robotmesh.com/studio>`_
 - Click on *Create a New Project* button
@@ -28,7 +25,7 @@ Creating a Project
 
 
 Installing plugins
-------------------
+==================
 *To install the plugins follow the guide at bottom of your screen or you can follow along with the guide*
 
 - Click on the "Please install it..." link on your project IDE.
@@ -66,7 +63,7 @@ Installing plugins
 
 
 [OPTIONAL] Firmware & drivers
-------------------------------
+=============================
 ``All drivers and firmwares are availavle`` `here <http://www.vex.com/firmware>`_
 
 - Only for Windows:

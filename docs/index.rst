@@ -6,32 +6,30 @@
 Documentation for LittleFoot!
 =============================
 
-Setup
------
+
 .. toctree::
    :maxdepth: 2
-
+   :caption: Setup
+   
    Setup RobotMesh
 
 
-Deploying code
---------------
 .. toctree::
    :maxdepth: 2
-
+   :caption: Deploying code
+   
    Deploy Code
 
 
-RobotMesh Help
----------------
 .. toctree::
    :maxdepth: 2
-
+   :caption: RobotMesh Help
+   
    RobotMesh API
 
-Troubleshooting
----------------
+
 .. toctree::
    :maxdepth: 2
-
+   :caption: Troubleshooting
+   
    Troubleshooting

@@ -1,7 +1,7 @@
-Deploy the code
-===============
+.. Deploy the code
+
 Pair Joystick and Cortex
-------------------------
+========================
 
   The Joystick must first be paired to the Cortex Microcontroller before they will work using the VEXnet Keys. Pairing requires a USB A-A Cable and a VEX 7.2V Battery. This process must be completed each time you use a Joystick or Cortex with a new mate. A Joystick can only communicate with a Cortex that it has been paired with. During the Pairing Process, the ID from the Cortex is transferred to the Joystick; thus mating the two units together.
 
@@ -31,7 +31,7 @@ Pair Joystick and Cortex
 
 
 Download Code to Cortex
------------------------
+=======================
 - Click the dropdown arrow beside the run button in your RobotMeshStudio IDE
 - Select the option - "Download: build program and download only"
 - Now click the Download button situated where the run button used to be
