@@ -8,7 +8,7 @@ Documentation for LittleFoot!
 
 This is Documentation for the littlefoot bot by the south doyle robotics team
 
-Our team home page : 'https://soknorobo.com <https://soknorobo.com>'_
+Our team home page : https://soknorobo.com
 
 .. toctree::
    :maxdepth: 2
