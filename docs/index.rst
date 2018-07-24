@@ -1,10 +1,12 @@
 .. LittleFoot documentation master file, created by
    sphinx-quickstart on Sat Jul 21 07:48:02 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+
+
 
 Documentation for LittleFoot!
 =============================
+
+This is Documentation for the littlefoot bot by the south doyle robotics team
 
 
 .. toctree::
