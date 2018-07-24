@@ -1,6 +1,7 @@
 
 ## LittleFoot
-> *Codes for the Crawl bot*
+> *Codes for the littlefoot bot*
+> http://littlefoot.rtfd.io/
 
 <hr>
 
