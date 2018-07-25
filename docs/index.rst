@@ -5,10 +5,12 @@
 
 Documentation for LittleFoot!
 =============================
-
 This is Documentation for the littlefoot bot by the south doyle robotics team
 
 Our team home page : https://soknorobo.com
+
+LittleFoot GitHub  : https://github.com/Atikul10152002/LittleFoot 
+
 
 .. toctree::
    :maxdepth: 2
@@ -36,3 +38,4 @@ Our team home page : https://soknorobo.com
    :caption: Troubleshooting
    
    Troubleshooting
+
