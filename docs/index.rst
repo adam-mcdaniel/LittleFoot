@@ -7,9 +7,9 @@ Documentation for LittleFoot!
 =============================
 This is Documentation for the littlefoot bot by the south doyle robotics team
 
-Our team home page : https://soknorobo.com
+- Our team home page : https://soknorobo.com
 
-LittleFoot GitHub  : https://github.com/Atikul10152002/LittleFoot 
+- LittleFoot GitHub  : https://github.com/Atikul10152002/LittleFoot 
 
 
 .. toctree::
@@ -38,4 +38,23 @@ LittleFoot GitHub  : https://github.com/Atikul10152002/LittleFoot
    :caption: Troubleshooting
    
    Troubleshooting
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Code
+
+
+.. automodule:: main
+.. autoclass:: Robot
+    :members:
+
+
+Indices and tables
+==================
+ 
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
 
