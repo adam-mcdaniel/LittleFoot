@@ -17,17 +17,16 @@ import sys
 import sphinx_rtd_theme
 
 sys.path.insert(0, os.path.abspath('../'))
-
 print("Module PATH: ",os.path.abspath('../'))
 
 # -- Project information -----------------------------------------------------
 
 project = 'LittleFoot'
-copyright = '2018, Mohammad Islam'
+copyright = '2018-2019, Mohammad Islam'
 author = 'Mohammad Islam'
 
-version = 'Alpha1.0'
-release = 'Alpha1.0'
+version = 'Alpha2.0'
+release = 'Alpha2.0'
 
 # -- General configuration ---------------------------------------------------
 

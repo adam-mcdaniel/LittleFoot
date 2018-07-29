@@ -2,14 +2,11 @@
 # -*- coding: utf-8 -*-
 
 """
-MainFile
-========
-
 * This file contains the code for the LittleFoot bot
 * The code and this support page for the softwares 
   belongs to the South Doyle Robotics Team
 * The code and this Documentation isn't open source, 
-  it's intended only to be protected uses ```ONLY``` .
+  it's intended for protected uses ```ONLY``` .
 """
 
 # imports
@@ -45,21 +42,28 @@ class Robot:
 		User defined codes
 		"""
 		while True:
-			# base motor -- axis
+    			
+			"""
+			base motor -- axis
+			"""
 		
 			if self.joystick.axis4() != 0:
 				self.base_m.run(self.joystick.axis4())
 			elif self.joystick.axis4() == 0:
 				self.base_m.off()
 				
-			# wrist motor -- axis
+			"""
+			wrist motor -- axis
+			"""
 			
 			if self.joystick.axis2() != 0:
 				self.wrist_m.run(self.joystick.axis2())
 			elif self.joystick.axis2() == 0:
 				self.wrist_m.off()
 			
-			# claw motor -- button
+			"""
+			claw motor -- button
+			"""
 			
 			if self.joystick.b8up() is False and self.joystick.b8down() is False:
 				self.claw_m.off()
@@ -68,7 +72,9 @@ class Robot:
 			elif self.joystick.b8down():
 				self.claw_m.run(50)
 				
-			# arm motor -- button
+			"""
+			arm motor -- button
+			"""
 			
 			if self.joystick.b7up() is False and self.joystick.b7down() is False:
 				self.arm_m.off()
@@ -80,4 +86,5 @@ class Robot:
 
 if __name__ == "main":
 	LittleFoot = Robot()
+
 	# LittleFoot.run()

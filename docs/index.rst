@@ -43,11 +43,8 @@ This is Documentation for the littlefoot bot by the south doyle robotics team
 .. toctree::
    :maxdepth: 2
    :caption: Code
-
-
-.. automodule:: main
-.. autoclass:: Robot
-    :members:
+   
+   codes
 
 
 Indices and tables
@@ -55,6 +52,5 @@ Indices and tables
  
 * :ref:`genindex`
 * :ref:`modindex`
-* :ref:`search`
 
 
