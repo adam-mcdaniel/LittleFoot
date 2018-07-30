@@ -25,8 +25,8 @@ project = 'LittleFoot'
 copyright = '2018-2019, Mohammad Islam'
 author = 'Mohammad Islam'
 
-version = 'Alpha2.0'
-release = 'Alpha2.0'
+version = '2018.7.30'
+release = '2018.7.30'
 
 # -- General configuration ---------------------------------------------------
 
@@ -83,7 +83,7 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
    'logo_only': True,
-#    'display_version': False,
+   'display_version': False,
 }
 html_logo = 'img/robot.png'
 # Theme options are theme-specific and customize the look and feel of a theme
