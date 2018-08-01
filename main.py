@@ -1,19 +1,11 @@
 #!/usr/bin/python3
 
 """
-* This file contains the code for the LittleFoot bot
-* The code and this support page for the softwares 
-  belongs to the South Doyle Robotics Team
-* The code and this Documentation isn't open source, 
-  it's intended for protected uses ```ONLY``` .
-"""
-
-
-"""
 imports the necessary libraries
 """
 import sys
 import vex
+
 
 __robotName__ = "LittleFoot"
 
@@ -29,11 +21,12 @@ class Robot:
         The port # in .Motor(#) is the port number.
         These variables are called / used by later methods in this class.
         """
-        self.base_m     = vex.Motor(2)
-        self.claw_m     = vex.Motor(6) 
-        self.arm_m      = vex.Motor(3)
-        self.wrist_m    = vex.Motor(7)
-        self.joystick   = vex.Joystick()
+        self.mclaw  = vex.Motor(2)
+        self.mbleft  = vex.Motor(3, True)
+        self.mbright  = vex.Motor(4)
+        self.mwrist  = vex.Motor(5)
+        self.joystick = vex.Joystick()
+        self.joystick.set_deadband(10)
 
     def run(self):
         """
@@ -48,43 +41,40 @@ class Robot:
         
         while True:
 
-            # base motor -- being controled by buttons
+            # base left axis 3
             
-            if self.joystick.b7left() is False and self.joystick.b7right() is False:
-                self.base_m.off()
-            elif self.joystick.b7left():
-                self.base_m.run(-35)
-            elif self.joystick.b7right():
-                self.base_m.run(35)
+            if self.joystick.axis3() != 0:
+                self.mbleft.run(self.joystick.axis3())
+            else:
+                self.mbleft.off()
+                
 
-            # wrist motor -- being controled by buttons
+            # base right axis 2
+            
+            if self.joystick.axis2() != 0:
+                self.mbright.run(self.joystick.axis2())
+            else:
+                self.mbright.off()
+            
+
+            # wrist b5
             
             if self.joystick.b5up() is False and self.joystick.b5down() is False:
-                self.wrist_m.off()
-            elif self.joystick.b5down():
-                self.wrist_m.run(-50)
+                self.mwrist.off()
             elif self.joystick.b5up():
-                self.wrist_m.run(50)
-            
-
-            # claw motor -- being controled by buttons
-            
-            if self.joystick.b8up() is False and self.joystick.b8down() is False:
-                self.claw_m.off()
-            elif self.joystick.b8up():
-                self.claw_m.run(-50)
-            elif self.joystick.b8down():
-                self.claw_m.run(50)
+                self.mwrist.run(-50)
+            elif self.joystick.b5down():
+                self.mwrist.run(40)
                 
-            # arm motor -- being controled by buttons
+            # claw b8
             
-            if self.joystick.b6down() is False and self.joystick.b6up() is False:
-                self.arm_m.off()
-            elif self.joystick.b6down():
-                self.arm_m.run(-30)
-            elif self.joystick.b6up():
-                self.arm_m.run(30)
+            if self.joystick.b8down() is False and self.joystick.b8left() is False:
+                self.mclaw.off()
+            elif self.joystick.b8down():
+                self.mclaw.run(-30)
+            elif self.joystick.b8left():
+                self.mclaw.run(30)
             
            
 LittleFoot = Robot()
-# LittleFoot.run()
+LittleFoot.run()
