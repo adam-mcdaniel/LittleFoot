@@ -1,5 +1,5 @@
-main.py
-=======
+LittleFoot/main.py
+==================
 
 .. automodule:: main
 .. autoclass:: Robot
