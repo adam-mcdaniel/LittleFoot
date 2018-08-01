@@ -77,4 +77,4 @@ class Robot:
             
            
 LittleFoot = Robot()
-LittleFoot.run()
+#LittleFoot.run()
