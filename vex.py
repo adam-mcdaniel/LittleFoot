@@ -14,6 +14,7 @@ class Motor:
 	def off(self, *a, **k):
 		pass
 
+
 class Joystick:
 	
 	def __init__(self, *a, **k):
@@ -25,6 +26,7 @@ class Joystick:
 	b7down = b7left = \
 	b7right = b8up = \
 	b8down = b8left = \
-	b8right = lambda *a, **k: 0
+	b8right = set_deadband \
+	= lambda *a, **k: 0
 		
 		
