@@ -1,4 +1,4 @@
-|build-status| |docs|
+https://littlefoot.readthedocs.io/en/latest/?badge=latest
 
 LittleFoot
 ==========
