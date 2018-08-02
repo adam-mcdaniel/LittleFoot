@@ -1,6 +1,6 @@
 # This file is a replacement for the vex module  \
-# because we don't have access to the vex module \
-# replace this file with the actual module if    \
+# because we don't have access to the vex module; \
+# Replace this file with the actual module if    \
 # the sourcecode is accessable
 
 
@@ -17,10 +17,10 @@ class Motor:
 
 class Joystick:
 	
-	def __init__(self, *a, **k):
+	def __init__(self):
 		pass
 
-	axis1 = laxis2 = axis3 = \
+	axis1 = axis2 = axis3 = \
 	axis4 = b5up = b5down = \
 	b6up = b6down = b7up = \
 	b7down = b7left = \
@@ -28,5 +28,4 @@ class Joystick:
 	b8down = b8left = \
 	b8right = set_deadband \
 	= lambda *a, **k: 0
-		
-		
+
