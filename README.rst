@@ -1,4 +1,4 @@
-https://littlefoot.readthedocs.io/en/latest/?badge=latest
+|ttps://littlefoot.readthedocs.io/en/latest/?badge=latest|
 
 LittleFoot
 ==========
