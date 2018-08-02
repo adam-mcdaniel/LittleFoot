@@ -12,11 +12,15 @@ This is Documentation for the littlefoot bot by the south doyle robotics team
 - LittleFoot GitHub  : https://github.com/Atikul10152002/LittleFoot 
 
 
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Setup
    
-   Setup RobotMesh
+   Creating a Project
+   Installing plugins
+   [OPTIONAL] Firmware & drivers
+
 
 
 .. toctree::
@@ -42,9 +46,10 @@ This is Documentation for the littlefoot bot by the south doyle robotics team
 
 .. toctree::
    :maxdepth: 2
-   :caption: Code
+   :caption: Source code
    
-   codes
+   main_code
+   vex_code
 
 
 Indices and tables

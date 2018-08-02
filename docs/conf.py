@@ -25,8 +25,8 @@ project = 'LittleFoot'
 copyright = '2018-2019, Mohammad Islam'
 author = 'Mohammad Islam'
 
-version = '2018.7.30'
-release = '2018.7.30'
+version = '2018.8.1'
+release = '2018.8.1'
 
 # -- General configuration ---------------------------------------------------
 
@@ -41,9 +41,10 @@ extensions = [
     'sphinx.ext.autosectionlabel',
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
-#    'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -71,7 +72,7 @@ language = 'en'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+# pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
