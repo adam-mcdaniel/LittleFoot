@@ -1,5 +1,5 @@
 
-.. image:: http://readthedocs.org/projects/littlefoot/badge/?version=latest&style=popout-square   :alt: Travis (.org)   :target: https://littlefoot.readthedocs.io/en/latest/
+.. image:: http://readthedocs.org/projects/littlefoot/badge/?version=latest&style=popout-square   :alt: Travis (.org)   :target: https://littlefoot.readthedocs.io/en/latest/ 
 .. image:: https://img.shields.io/badge/littleFoot-OK-brightgreen.svg 
 
 LittleFoot
