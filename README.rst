@@ -1,4 +1,5 @@
-|build-status| |docs|
+
+.. image:: http://readthedocs.org/projects/littlefoot/badge/?version=latest&style=popout-square   :alt: Travis (.org)   :target: https://littlefoot.readthedocs.io/en/latest/
 
 LittleFoot
 ==========
