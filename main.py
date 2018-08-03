@@ -112,80 +112,78 @@ def wristRun():
 
 def clawRun():
     # claw b8 ++ tick timer
-    '''   
-    timer = 201
-    buttonTimer = 100
-    clawIsOpen = False
 
-    if joystick.b8down() and buttonTimer > 100:
-        if clawIsOpen:
-            clawIsOpen = False
-            timer = 0
-        elif clawIsOpen is False:
-            clawIsOpen = True
-            timer = 0
-        buttonTimer = 0
+    # timer = 201
+    # buttonTimer = 100
+    # clawIsOpen = False
 
-    if timer < 200:
-        timer += 1
-        if clawIsOpen:
-            _claw.run(-50)
-        elif clawIsOpen is False:
-            _claw.run(50)
-    elif timer >= 200:
-        _claw.off()
+    # if joystick.b8down() and buttonTimer > 100:
+    #     if clawIsOpen:
+    #         clawIsOpen = False
+    #         timer = 0
+    #     elif clawIsOpen is False:
+    #         clawIsOpen = True
+    #         timer = 0
+    #     buttonTimer = 0 
 
-    # applies continued closing force
+    # if timer < 200:
+    #     timer += 1
+    #     if clawIsOpen:
+    #         _claw.run(-50)
+    #     elif clawIsOpen is False:
+    #         _claw.run(50)
+    # elif timer >= 200:
+    #     _claw.off()
 
-    # elif timer >= 200 and clawIsOpen == False:
-    #     claw_motor.run(-30)
+    # # applies continued closing force
 
-    if buttonTimer <= 100:
-        buttonTimer += 1
-    if timer >= 250:
-        timer = 0
-    '''
+    # # elif timer >= 200 and clawIsOpen == False:
+    # #     claw_motor.run(-30)
 
-    '''
+    # if buttonTimer <= 100:
+    #     buttonTimer += 1
+    # if timer >= 250:
+    #     timer = 0
+
+
     # claw b8 ++ is close and is open
-    tickTimer = timer.Timer()
-    tickTimer_max = 2
-    tickTimer.start()
-    buttonTimer = timer.Timer()
-    buttonTimer_max = 1
-    buttonTimer.start()
-    timer_stopping_point = 10
-    claw = False
-    open = True
-    closed = False
+    # tickTimer = timer.Timer()
+    # tickTimer_max = 2
+    # tickTimer.start()
+    # buttonTimer = timer.Timer()
+    # buttonTimer_max = 1
+    # buttonTimer.start()
+    # timer_stopping_point = 10
+    # claw = False
+    # open = True
+    # closed = False
 
-    if joystick.b8down() and buttonTimer > buttonTimer_max:
-        if claw is open:
-            claw = closed
-            tickTimer.reset()
-        elif claw is closed:
-            claw = open
-            tickTimer.reset()
-        buttonTimer.reset()
+    # if joystick.b8down() and buttonTimer > buttonTimer_max:
+    #     if claw is open:
+    #         claw = closed
+    #         tickTimer.reset()
+    #     elif claw is closed:
+    #         claw = open
+    #         tickTimer.reset()
+    #     buttonTimer.reset()
 
-    if tickTimer < tickTimer_max:
-        if claw is open:
-            _claw.run(-50)
-        elif claw is closed:
-            _claw.run(50)
-    elif tickTimer >= tickTimer_max:
-        _claw.off()
+    # if tickTimer < tickTimer_max:
+    #     if claw is open:
+    #         _claw.run(-50)
+    #     elif claw is closed:
+    #         _claw.run(50)
+    # elif tickTimer >= tickTimer_max:
+    #     _claw.off()
 
-    # applies continued closing force
+    # # applies continued closing force
 
-    # elif timer >= 200 and clawIsOpen == False:
-    #     claw_motor.run(-30)
+    # # elif timer >= 200 and clawIsOpen == False:
+    # #     claw_motor.run(-30)
 
-    if tickTimer > timer_stopping_point:
-        tickTimer.reset()
-    elif buttonTimer > timer_stopping_point:
-        buttonTimer.reset()
-    '''
+    # if tickTimer > timer_stopping_point:
+    #     tickTimer.reset()
+    # elif buttonTimer > timer_stopping_point:
+    #     buttonTimer.reset()
 
     # claw b8 ++ timer module
     tickTimer = timer.Timer()
