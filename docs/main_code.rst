@@ -2,9 +2,19 @@ LittleFoot/main.py
 ==================
 
 .. automodule:: main
-   :undoc-members:
-   :inherited-members:
-   :special-members:
-   :members:
 
+   .. autofunction:: run,
 
+   .. autofunction:: leftDrive
+
+   .. autofunction:: rightDrive
+
+   .. autofunction:: tankDrive
+
+   .. autofunction:: arcadeDrive
+
+   .. autofunction:: baseRun
+
+   .. autofunction:: wristRun
+
+   .. autofunction:: clawRun
