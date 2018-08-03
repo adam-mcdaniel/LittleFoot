@@ -3,7 +3,7 @@ LittleFoot/main.py
 
 .. automodule:: main
 
-   .. autofunction:: run,
+   .. autofunction:: run
 
    .. autofunction:: leftDrive
 
