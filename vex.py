@@ -5,27 +5,23 @@
 
 
 class Motor:
-	def __init__(self, *a, **k):
-		pass
+    def __init__(self, *a, **k):
+        pass
 
-	def run(self, *a, **k):
-		pass
+    def run(self, *a, **k):
+        pass
 
-	def off(self, *a, **k):
-		pass
+    def off(self, *a, **k):
+        pass
 
 
 class Joystick:
-	
-	def __init__(self):
-		pass
+  
+    def __init__(self):
+        pass
 
-	axis1 = axis2 = axis3 = \
-	axis4 = b5up = b5down = \
-	b6up = b6down = b7up = \
-	b7down = b7left = \
-	b7right = b8up = \
-	b8down = b8left = \
-	b8right = set_deadband \
-	= lambda *a, **k: 0
-
+    axis1 = axis2 = axis3 = axis4 = b5up = b5down = \
+    b6up = b6down = b7up = b7down = b7left = \
+    b7right = b8up = b8down = b8left = \
+    b8right = set_deadband \
+    = lambda *a, **k: 0

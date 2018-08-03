@@ -136,36 +136,36 @@ def drive():
         if timer >= 250:
             timer = 0
 
- #########################################################
-        #  # claw b8
-        # if joystick.b8down() and buttonTimer > 100:
-        #     if clawOpen:
-        #         clawOpen = False
-        #         timer = 0
-        #     elif clawOpen is False:
-        #         clawOpen = True
-        #         timer = 0
-        #     buttonTimer = 0
+'''
+         # claw b8
+        if joystick.b8down() and buttonTimer > 100:
+            if clawOpen:
+                clawOpen = False
+                timer = 0
+            elif clawOpen is False:
+                clawOpen = True
+                timer = 0
+            buttonTimer = 0
 
-        # if timer < 200:
-        #     timer += 1
-        #     if clawOpen:
-        #         _claw.run(-50)
-        #     elif clawOpen is False:
-        #         _claw.run(50)
-        # elif timer >= 200:
-        #     _claw.off()
+        if timer < 200:
+            timer += 1
+            if clawOpen:
+                _claw.run(-50)
+            elif clawOpen is False:
+                _claw.run(50)
+        elif timer >= 200:
+            _claw.off()
 
-        # # applies continued closing force
+        # applies continued closing force
 
-        # # elif timer >= 200 and clawOpen == False:
-        # #     claw_motor.run(-30)
+        # elif timer >= 200 and clawOpen == False:
+        #     claw_motor.run(-30)
 
-        # if buttonTimer <= 100:
-        #     buttonTimer += 1
-        # if timer >= 250:
-        #     timer = 0
- #########################################################            
+        if buttonTimer <= 100:
+            buttonTimer += 1
+        if timer >= 250:
+            timer = 0
+'''      
 
 
-run()
+# run()
