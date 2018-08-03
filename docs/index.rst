@@ -7,6 +7,12 @@ Documentation for LittleFoot!
 =============================
 This is Documentation for the littlefoot bot by the south doyle robotics team
 
+ |docs| image:: http://readthedocs.org/projects/littlefoot/badge/?version=latest&style=popout-square   :alt: Travis (.org)   :target: https://littlefoot.readthedocs.io/en/latest/ 
+.. |littleFoot| image:: https://img.shields.io/badge/littleFoot-OK-brightgreen.svg 
+
+|docs| |littleFoot|
+
+
 - Our team home page : https://soknorobo.com
 
 - LittleFoot GitHub  : https://github.com/Atikul10152002/LittleFoot 
